@@ -5,7 +5,7 @@ const Display = (props) => {
   return (
     <div className={'display'}>
       {/* Display any props data here */}
-      <p>{display}</p>
+      <p>{props.number}</p>
     </div>
   )
 };
